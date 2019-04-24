@@ -1,6 +1,6 @@
-python utf8scan and utf8scan2 code repositories
-'Hello, world!' in utf8scan:
-/U8S----------\
+python utf8scan code repository
+'Hello, world!' in utf8scan1, 2, 3, 4, and 5:
+/U8S1---------\
 |■  ■   ■■  ■ |
 |■■■ ■■  ■■ ■■|
 |  ■■ ■■■■■ ■■|
@@ -9,11 +9,46 @@ python utf8scan and utf8scan2 code repositories
 | ■ ■■ ■■  ■■ |
 | ■  ■    ■   |
 \-------------/
-'Hello, world!' in utf8scan2:
 /U8S2---------\
 |=o o=oo■o=o=■|
 | ■o■■o=o  o■o|
 |■■o■■■ =■o=o=|
 |o = o        |
 \-------------/
-Both automatically measure themselves to keep as much of a box shape as possible.
+/U8S3---------\
+|■■ ■■ ■■   ■■|
+|■■  ■  ■■  ■■|
+|■■ ■ ■■■ ■ ■■|
+|■ ■■ ■■  ■  ■|
+|■  ■ ■■■   ■ |
+|■■    ■■  ■  |
+|■■    ■■■ ■ ■|
+|■■ ■  ■■   ■ |
+|■■   ■■■■    |
+|■■■    ■■ ■■ |
+|■■    ■■   ■ |
+|■■ ■  ■■   ■■|
+|■■  ■■■■■  ■■|
+|■ ■  ■■ ■■■■■|
+|■  ■■■■   ■■ |
+| ■■■■■  ■    |
+\MD5----------/
+/U8S4---------\
+|■o=■ o■=o ■ ■|
+|■oo■oo■o=■ =o|
+|=oo■ oo= o=o |
+|■  ■==■==o= =|
+|■ o■= o■  ■o=|
+|■  ■ oo==o= ■|
+|■ ■■=o■o ■o■■|
+|=o■= ■ ■■=o  |
+\MD5----------/
+/U8S5---------\
+|<<<■>■■+>xoxo|
+|xx++<=> x+■++|
+|< >=>=o x+o< |
+|> ooo o xx■+o|
+|<o>■<+<>>■> <|
+|o>■          |
+\MD5----------/
+All automatically measure themselves to keep a decent box shape. Hashed algorithms are a bit harder.
